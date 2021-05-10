@@ -1,0 +1,15 @@
+Read me
+Hello! i created a maven project and added each questions answer to framework. 
+for question three you can find my page with elements and methods and a test class 
+with TestNG to initialize questionthree.
+question one:
+Explanation is on the question one with comments.
+question two:
+Explanation is on the question two with comments.
+question three:
+created POM maven project with java, selenium, selenium webdriver and testNG.
+Everything that is needed to run this framework is in pom.xml(dependencies)
+I used Eclipse as IDE but any other such as Intellij should work.
+Question four:
+Explanation is on Question four with comments. i was able to sort them within but not able to eliminate single words.
+Thank you for the opportunity. Looking forward to hearing from you.

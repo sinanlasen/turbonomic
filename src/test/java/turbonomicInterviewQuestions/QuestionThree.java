@@ -24,6 +24,8 @@ public class QuestionThree {
 	
 		Assert.assertEquals("true",page.optionsIsSelectedByOrder(1));
 		Assert.assertEquals("true",page.optionsIsSelectedByOrder(2));
+		page.clickDropDownClose();
+		page.clickClear();
 		Driver.closeBrowserSession();
 		
 		

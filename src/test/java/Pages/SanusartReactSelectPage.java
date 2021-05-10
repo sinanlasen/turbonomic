@@ -28,6 +28,11 @@ public class SanusartReactSelectPage {
 		dropDown.click();
 	}
 	
+	@FindBy(xpath="//*[contains(@class,'react-dropdown-select-dropdown-handle')]") WebElement dropDownClose;
+	public void clickDropDownClose() {
+		dropDownClose.click();
+	}
+	
 	@FindBy(xpath="//*[@role='option']") List<WebElement> options;
 	public void clickOptionsByOrder(int orderNumber) {
 	options.get(orderNumber-1).click();
@@ -36,6 +41,7 @@ public class SanusartReactSelectPage {
 	public String optionsIsSelectedByOrder(int orderNumber) {
 		return options.get(orderNumber-1).getAttribute("aria-selected");
 	}
+	
 	
 	
 	
